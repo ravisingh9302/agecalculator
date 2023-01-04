@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #2782e3;
     font-size: 15px;
@@ -6,131 +6,156 @@ body{
     padding: 0;
     margin: 0;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.container{
-    width: 60%; 
+
+
+.container {
+    /* border: 2px solid blue; */
+
+    width: 60%;
     height: auto;
     margin: 100px auto;
     background-color: #eee;
-    border-radius:25px ;
-    /* border: 2px solid blue; */
+    border-radius: 25px;
     padding: 0;
 }
-.base{
 
-    width:100%;
+
+.base {
+
+    width: 100%;
     /* margin:10px 10px ; */
     /* overflow: hidden; */
     /* display: block; */
     /* float: none; */
     /* border: 2px solid yellow; */
+
     text-align: center;
-    
+
 }
 
-.datearea{
+.datearea {
     /* border: 2px solid orangered; */
+
     text-align: center;
     margin: auto 0;
     padding: 30px 0;
 
 }
-.block{
-    width:140px ;
-    padding:10px;
+
+
+.block {
     /* margin-left:20px ; */
+    /* border: 2px solid purple; */
+    /* display: block; */
+
+    width: 140px;
+    padding: 10px;
     margin: 7px;
     display: inline-block;
-    /* border: 2px solid purple; */
     overflow: hidden;
     text-align: center;
-    /* display: block; */
-    
+
 }
-.base h4{
- font-size:26px ;
- text-align: center;
- font-family: sans-serif;
- font-weight:normal ;
- /* margin-top: 0; */
- margin: 0;
- background-color: #0761b6;
- padding: 12px;
- box-shadow:0px 2px #bababa ;
-}
-.title{
-    font-size:20px ;
+
+.base h4 {
+    /* margin-top: 0; */
+
+    font-size: 26px;
     text-align: center;
     font-family: sans-serif;
-    font-weight:normal ;
-    color:#070707 ;
-    letter-spacing:0.8px ;
-    margin: auto;
+    font-weight: normal;
+    margin: 0;
+    background-color: #0761b6;
+    padding: 12px;
+    box-shadow: 0px 2px #bababa;
+}
+
+.title {
     /* line-height:0.5 ; */
     /* word-spacing:2.7px ; */
     /* border: 1px solid red; */
+
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #070707;
+    letter-spacing: 0.8px;
+    margin: auto;
 }
-input[type=text]{
-    width:120px ;
+
+
+input[type=text] {
     /* margin:auto; */
     /* outline:none ; */
     /* padding:12px ; */
     /* font-size:17px ; */
-    
+
+    width: 120px;
     margin: auto;
     margin-top: 5px;
     min-height: 50px;
-    border:2px solid #1073d0 ;
-    background-color:#f7f7f7 ;
-    border-radius:2px ;
+    border: 2px solid #1073d0;
+    background-color: #f7f7f7;
+    border-radius: 2px;
     color: #050606;
     text-align: center;
 }
-input[type =text]:focus{
-    background-color:#ffffff ;
-    border:2px solid orange ;
-    
+
+
+input[type=text]:focus {
+    background-color: #ffffff;
+    border: 2px solid orange;
+
 }
-input[type =button]{
-    width:70px ;
-    
+
+input[type=button] {
+
     /* margin-left:40% ; */
     /* margin-top:40px ; */
     /* outline:none ; */
     /* border:none ; */
-    text-align: center;
-   
-    border-radius:2px ;
-    background-color:#0761b6 ;
-    color: #ffffff;
-    padding:10px 10px ;
+    /* text-align: center; */
+    /* width:70px ; */
 
-    /* create by ravi */
-    box-shadow: 5px 5px black;
-    font-size:20px ;
+    border-radius: 10px;
+    background-color: #1f92fe;
+    font-size: 20px;
     padding: 10px;
+    color: #fcfcfc;
     font-weight: bold;
-    /* border: 2px solid red; */
-
-
-}
-input[type = button]:hover{
-    background-color:#003669 ;
+    border: 2px solid rgb(18, 92, 176);
+    cursor: pointer;
 
 }
-.age{
+
+
+input[type=button]:hover {
+    /* border border blur spread color shadowtype */
+
+    box-shadow: 1px 1px 3px black;
+    background-color: #02488a;
+
+}
+
+
+.age {
     display: block;
-    margin:10px ;
-    margin-top:35px ;
-    padding:10px ;
-    padding-bottom:20px ;
+    /* margin:30px auto 30px ; */
+    /*top left_rigth bottom*/
+    margin-top: 15px;
+    padding: 15px 10px;
     overflow: hidden;
     font-family: verdana;
-    font-size:23px ;
-    font-weight:normal ;
-    line-height:1.5 ;
-    word-spacing:2.7px ;
-    color: navy;
+    font-size:1.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    /* word-spacing: px; */
+    /* border: 1px solid red; */
+    color: rgb(2, 52, 102);
+    text-align: center;
 }
