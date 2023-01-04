@@ -39,7 +39,7 @@ function age() {
                 document.getElementById('age').innerHTML = 'You are not Birth yet';
             }
 
-            else if(y1==y2 && m1>=m2 && d1==d2){
+            else if(y1==y2 && m1==m2 && d1==d2){
                 document.getElementById('age').innerHTML = 'Congratulations, and most Welcome you';
             }
             else if(m1==m2 && d1==d2){
