@@ -64,7 +64,7 @@ input[type=text]{
 }
 input[type =text]:focus{
     background-color:#ffffff ;
-    border:2px solid orange ;
+    border:2px solid #ff0000 ;
     
 }
 input[type =button]{
