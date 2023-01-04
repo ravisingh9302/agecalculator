@@ -113,7 +113,6 @@ input[type=text] {
 
 input[type=text]:focus {
     background-color: white;
-    border: none;
     outline: none;
     /* border: 2px solid #052bed; */
 
