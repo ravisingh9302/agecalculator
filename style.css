@@ -10,38 +10,43 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width: 520px; 
+    width: 60%; 
     height: auto;
     margin: 100px auto;
     background-color: #eee;
     border-radius:25px ;
-
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 0;
 }
 .base{
-    width:100% ;
-    margin:0 ;
 
+    width:100%;
+    /* margin:10px 10px ; */
     /* overflow: hidden; */
     /* display: block; */
     /* float: none; */
-    
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     text-align: center;
     
 }
 
 .datearea{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     text-align: center;
-    /* margin: auto 40px; */
-    /* padding: auto 40px; */
+    margin: auto 0;
+    padding: 30px 0;
+
 }
 .block{
-    width:135px ;
-    padding:5px 20px ;
+    width:140px ;
+    padding:10px;
     /* margin-left:20px ; */
+    margin: 7px;
     display: inline-block;
+    /* border: 2px solid purple; */
+    overflow: hidden;
+    text-align: center;
+    /* display: block; */
     
 }
 .base h4{
@@ -49,8 +54,10 @@ body{
  text-align: center;
  font-family: sans-serif;
  font-weight:normal ;
- margin-top: 0;
+ /* margin-top: 0; */
+ margin: 0;
  background-color: #0761b6;
+ padding: 12px;
  box-shadow:0px 2px #bababa ;
 }
 .title{
@@ -58,22 +65,28 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-weight:normal ;
-    line-height:0.5 ;
-    letter-spacing:0.5px ;
-    word-spacing:2.7px ;
-    color:#1073d0 ;
+    color:#070707 ;
+    letter-spacing:0.8px ;
+    margin: auto;
+    /* line-height:0.5 ; */
+    /* word-spacing:2.7px ; */
+    /* border: 1px solid red; */
 }
 input[type=text]{
-    width:140px ;
-    margin:auto;
-    outline:none ;
+    width:120px ;
+    /* margin:auto; */
+    /* outline:none ; */
+    /* padding:12px ; */
+    /* font-size:17px ; */
+    
+    margin: auto;
+    margin-top: 5px;
     min-height: 50px;
     border:2px solid #1073d0 ;
-    padding:12px ;
     background-color:#f7f7f7 ;
     border-radius:2px ;
-    color: #1073d0;
-    font-size:17px ;
+    color: #050606;
+    text-align: center;
 }
 input[type =text]:focus{
     background-color:#ffffff ;
@@ -87,7 +100,7 @@ input[type =button]{
     /* margin-top:40px ; */
     /* outline:none ; */
     /* border:none ; */
-    /* text-align: center; */
+    text-align: center;
    
     border-radius:2px ;
     background-color:#0761b6 ;
@@ -97,6 +110,7 @@ input[type =button]{
     /* create by ravi */
     box-shadow: 5px 5px black;
     font-size:20px ;
+    padding: 10px;
     font-weight: bold;
     /* border: 2px solid red; */
 
