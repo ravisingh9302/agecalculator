@@ -91,16 +91,19 @@ body {
 
 input[type=text] {
     /* margin:auto; */
-    /* outline:none ; */
     /* padding:12px ; */
     /* font-size:17px ; */
-
+    /* outline:none ; */
+    
+    
+    border: none;
     width: 120px;
     margin: auto;
     margin-top: 5px;
     min-height: 50px;
-    border: 2px solid #0266c4;
-    background-color: #e3e3e3;
+    border: 2px solid #385c7e;
+    background-color: #f0f0f0;
+    /* background-color: #d6d6d6; */
     border-radius: 7px;
     color: #050606;
     font-size: 16px;
@@ -110,7 +113,9 @@ input[type=text] {
 
 input[type=text]:focus {
     background-color: white;
-    border: 2px solid rgb(3, 3, 3);
+    border: none;
+    outline: none;
+    /* border: 2px solid #052bed; */
 
 }
 
