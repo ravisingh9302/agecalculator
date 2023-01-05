@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Age calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <form>
@@ -14,22 +16,28 @@
                 <div class="enter">
                     <h4>Age calculator</h4>
                 </div>
-                <div class="block">
-                    <p class="title">Date</p>
-                    <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2"/>
-                </div>
-                <div class="block">
-                    <p class="title">Month</p>
-                    <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2"/>
-                </div>
-                <div class="block">
-                    <p class="title">Year</p>
-                    <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4"/>
+                <p style="margin:20px auto 0px;">Enter your Date of birth</p>
+                <div class="datearea">
+                    <div class="block">
+                        <p class="title">Date</p>
+                        <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1"
+                            maxlength="2" autocomplete="off" />
+                    </div>
+                    <div class="block">
+                        <p class="title">Month</p>
+                        <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1"
+                            maxlength="2" autocomplete="off" />
+                    </div>
+                    <div class="block">
+                        <p class="title">Year</p>
+                        <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4"
+                            maxlength="4" autocomplete="off" />
+                    </div>
                 </div>
             </div>
             <div class="base">
                 <div class="enter">
-                    <input type="button" name="submit" value="submit" onclick="age()"/>
+                    <input type="button" name="submit" value="Calculate" onclick="age()" />
                 </div>
             </div>
             <div class="age" id="age"></div>
@@ -37,4 +45,5 @@
     </div>
     <script src="aap.js"></script>
 </body>
+
 </html>
