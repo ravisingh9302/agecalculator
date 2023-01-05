@@ -35,7 +35,10 @@ function age() {
 
         if (d1 > 0 && d1 < 32 && m1 > 0 && m1 < 13 && y1 > 1500 && y1 < y2 + 1) {
 
-            if(y1==y2 && m1>=m2 && d1>d2){
+            if(y1==y2 && m1==m2 && d1>d2){
+                document.getElementById('age').innerHTML = 'You are not Birth yet';
+            }
+            else if(y1==y2 && m1>m2){
                 document.getElementById('age').innerHTML = 'You are not Birth yet';
             }
 
